@@ -1,0 +1,26 @@
+# trace file name
+FNAME = '/home/jb/DT6/hm_0.csv'
+
+# SSD parameters
+GROUP_NUMBER_COUNT = 6
+PAGE_SIZE = 512 * 8
+PAGES_PER_BLOCK = 512
+BLOCKS_PER_SSD = 512 * 1 * 8 * 2 
+GC_TRHESHOLD = 0.75
+OVER_PROVISIONING_SPACE = 0.25
+
+
+# About Workloads
+WRITE_REQUEST_COUNT = 0
+
+
+# About WA
+USER_WRITE = 0
+GC_WRITE = [0 for _ in range(GROUP_NUMBER_COUNT + 1)]
+GARBAGE_COLLECTION_COUNT = 0
+
+# About ML-DT
+NUM_WP = 6
+RANGE_DEATH_TIME = [4.0, 34.0, 138.0, 929.0, 32436.286199999973, 2525164.0]
+
+# About Group list
